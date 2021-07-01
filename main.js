@@ -2,6 +2,7 @@ const utterance = new SpeechSynthesisUtterance();
 
 utterance.lang = "pt-BR";
 /*utterance.rate = 1;*/
+utterance.volume = 2;
 
 function speak() {
 	speechSynthesis.speak(utterance);
